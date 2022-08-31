@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #0D0D0D;
+}
+
+.burger{
+    background: none;
+    border: none;
+    margin: 55px 0 0 35px;
+    position: absolute;
+    left: 0;
+}
+
+.burger img{
+    width: 35px;
+}
+
+.companyName{
+    font-family: 'Cinzel';
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 34px;
+    line-height: 130%;
+    padding-top: 50px;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 130px;
+}
+
+header{
+    background: linear-gradient(0deg, rgba(214, 255, 17, 0.4), rgba(214, 255, 17, 0.4)), url(../img/young-woman-juicy-portrait.jpg) no-repeat center top;
+    background-size: cover;
+    height: 132vh;
+    background-position: 50% 50%;
+}
+
+#kiwi{
+    margin: 330px 0px 0px 290px; 
+    width: 45%;
+}
+
+.title{
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    font-size: 132px;
+    line-height: 127%;
+    display: flex;
+    width: 1180px;
+    margin: 460px 0px 0px 280px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.middleText{
+    font-family: 'Cinzel', serif;
+    font-size: 35.0587px;
+    line-height: 195%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 113px 0px 0px 287px;
+    width: 100%;
+}
+
+#firesText{
+    font-family: 'Roboto', sans-serif;
+    width: 420px;
+    font-size: 18.0302px;
+    line-height: 190%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+#secondText{
+    font-family: 'Roboto', sans-serif;
+    width: 420px;
+    font-size: 18.0302px;
+    line-height: 185%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-left: 170px;
+}
+
+.blockWithTexts{
+    display: flex;
+    /* margin-top: 85px; */
+}
+
+#year{
+    font-size: 21px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+    margin-left: 23%;
+}
+
+#texts{
+    display: flex;
+    margin: 9% 0% 0% 0%;
+}
+
+.firstPublic{
+    height: 100%;
+    width: 100%;
+    margin-top: 12%;
+    position: relative;
+    display: flex;
+    background: #D6FF11;
+}
+
+#crowd{
+    background: linear-gradient(0deg, rgba(16, 107, 99, 0.75), rgba(16, 107, 99, 0.75)), 
+    url('../img/crown.jpg') no-repeat center top;
+    background-size: cover;
+    position: absolute;
+    width: 1228.61px;
+    height: 839.1px;
+    z-index: 2;
+    display: flex;
+}
+
+.JackRinaldi{
+    height: 839.1px;
+    width: 110%;
+}
+
+.t01{
+    font-family: 'Cinzel', serif;
+    font-size: 190px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    left: 120px;
+    top: -80px;
+    z-index: 2;
+}
+
+#crownTitle{
+    font-family: 'Cinzel', serif;
+    font-size: 180px;
+    line-height: 130%;
+    text-transform: uppercase;
+    z-index: 2;
+    position: absolute;
+    white-space: pre;
+    top: 274px;
+    left: 29px;
+    color: #FFFFFF;
+}
+
+#redText{
+    font-family: 'Cinzel', serif;
+    font-size: 76px;
+    line-height: 93px;
+    text-transform: uppercase;
+    color: #D70D06;
+    z-index: 2;
+    position: absolute;
+    right: 33px;
+    top: 69px;
+}
+
+#redBG{
+    position: absolute;
+    transform: translate(100%,112%);
+    object-fit: cover;
+    z-index: 4;
+    width: 420px;
+    height: 284px;
+}
+
+#portretBG{
+    position: absolute;
+    z-index: 4;
+    transform: translate(-50%,-50%);
+    width: 290px;
+    height: 275px;
+    object-fit: cover;
+    right: 25px;
+    top: 52%;
+}
+
+#name{
+    position: absolute;
+    z-index: 4;
+    font-size: 27px;
+    text-transform: capitalize;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    right: 167px;
+    bottom: 215px;
+}
+
+#oval{
+    width: 200px;
+    height: 100px;
+    border: 3px solid #000000;;
+    border-radius: 100px / 50px;
+    position: absolute;
+    z-index: 4;
+}
+
+#btn{
+    color: #000000;
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 110px / 70px;
+    border: 3px solid #000000;
+    font: normal 25px/140px Arial;
+    right: 200px;
+    width: 221px;
+    bottom: 35px;
+    height: 142px;
+}
+
+#t02{
+    font-family: 'Cinzel', serif;
+    font-size: 190px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 2;
+}
+
+.secondPublic{
+    position: relative;
+    margin-top: 300px;
+    margin-left: 315px;
+    display: flex;
+}
+
+#year2{
+    font-family: 'Cinzel', serif;
+    font-size: 21px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -230px;
+    top: 90px;
+}
+
+.blGirl{
+    background-image: linear-gradient(0deg, rgba(201, 242, 4, 0.17), rgba(201, 242, 4, 0.17)), url(../img/blGirl.jpg);
+    background-size: cover;
+    width: 706px;
+    height: 960px;
+    margin-top: 355px;
+    margin-left: 6px;
+}
+
+#rectangle{
+    width: 177px;
+    height: 1165px;
+    background: #106B63;
+    position: absolute;
+    right: 0;
+    top: -57px;
+}
+
+.description{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    line-height: 168%;
+    margin-left: 133px;
+    margin-top: 110px;
+    text-transform: capitalize;
+}
+
+#year3{
+    font-family: 'Cinzel', serif;
+    font-size: 21px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -230px;
+    top: 730px;
+}
+
+#btnGren{
+    color: #D6FF11;
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+    border: 5px solid #B8FF01;
+    font: normal 85px/120px Arial;
+    height: 135px;
+    width: 140px;
+    right: 530px;
+    margin-top: 70px;
+}
+
+#t04{
+    font-family: 'Cinzel', serif;
+    font-size: 190px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 2;
+}
+
+.thirdPublic{
+    margin-top: 340px;
+    margin-left: 160px;
+    display: flex;
+    position: relative;
+}
+
+#rectangle2{
+    width: 321px;
+    height: 380px;
+    background: #106B63;
+    position: absolute;
+    bottom: -110px;
+    left: -315px;
+}
+
+#rectangle3{
+    width: 712px;
+    height: 110px;
+    background: #106B63;
+    position: absolute;
+    bottom: -110px;
+    left: 0;
+}
+
+#rectangle4{
+    width: 200px;
+    height: 1672px;
+    background: #106B63;
+    position: absolute;
+    bottom: -110px;
+    left: 667px;
+    top: -231px;
+    z-index: 2;
+}
+
+#flowerGirl{
+    position: absolute;
+    width: 493px;
+    height: 650px;
+    margin: 48px 0px 0px 295px;
+    z-index: 4;
+}
+
+#model{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 162%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 200px;
+}
+
+.textInDiscription{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 168%;
+    text-transform: capitalize;
+}
+
+.discription2{
+    padding: 334px 0px 0px 0px;
+}
+
+#btnGren03{
+    color: #D6FF11;
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+    border: 5px solid #B8FF01;
+    font: normal 85px/120px Arial;
+    height: 135px;
+    width: 140px;
+    margin-top: 45px;
+}
+
+#t03{
+    font-family: 'Cinzel', serif;
+    font-size: 190px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 2;
+}
+
+.fourthPublic{
+    margin-left: 730px;
+    position: relative;
+    top: -400px;
+}
+
+#model03{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 162%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 317px;
+}
+
+#keds{
+    margin-top: 254px;
+    height: 596px;
+    width: 510px;
+    position: relative;
+    z-index: 2;
+}
+
+#rectangle5{
+    background: #106B63;
+    width: 903px;
+    height: 220px;
+    position: absolute;
+    bottom: -70px;
+    left: -300px;
+}
+
+#footerText{
+    font-family: 'Cinzel', serif;
+    font-size: 100.168px;
+    line-height: 170%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: -60px;
+}
+
+@media screen and (max-width: 1440px){
+    .container{
+        width: 100vh;
+    }
+
+    header {
+        background: linear-gradient(0deg, rgba(214, 255, 17, 0.4), rgba(214, 255, 17, 0.4)), url(../img/young-woman-juicy-portrait.jpg) no-repeat center top;
+        background-size: cover;
+        height: 110vh;
+        width: 144vh;
+        background-position: 50% 50%;
+    }
+
+    .firstPublic {
+        width: 144vh;
+    }
+
+    .secondPublic {
+        width: 120vh;
+    }
+
+    .thirdPublic {
+        width: 140vh;
+    }
+
+    #year{
+        white-space: pre;
+    }
+
+    footer{
+        width: 145vh;
+    }
+
+    .menu{
+        width: 145vh;
+    }
+
+    #kiwi {
+        margin: 410px 0px 0px 290px;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .container{
+        width: 1440px;
+    }
+}
+    
+     
+    
+@media screen and (max-width: 1199px){ 
+    .container{
+        width: 960px;
+    }
+}
+     
+    
+@media screen and (max-width: 991px) {     
+    .container{
+        width: 720px;
+    }
+
+    #rectangle{
+        right: 130px;
+    }
+} 
+    
+     
+    
+@media screen and (max-width: 767px) { 
+    .container{
+        width: 540px;
+    }
+} 
+    
+     
+    
+@media screen and (max-width: 575px) { 
+    .container{
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+    

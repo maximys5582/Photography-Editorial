@@ -47,36 +47,36 @@ header{
 }
 
 #kiwi{
-    margin: 330px 0px 0px 290px; 
+    margin: 15% 0px 0px 290px; 
     width: 45%;
 }
 
 .title{
     font-family: 'Cinzel', serif;
     font-weight: 400;
-    font-size: 132px;
+    font-size: 700%;
     line-height: 127%;
     display: flex;
     width: 1180px;
-    margin: 460px 0px 0px 280px;
+    margin: 20% 0px 0px 280px;
     color: #FFFFFF;
     text-transform: uppercase;
 }
 
 .middleText{
     font-family: 'Cinzel', serif;
-    font-size: 35.0587px;
+    font-size: 230%;
     line-height: 195%;
     text-transform: capitalize;
     color: #FFFFFF;
     margin: 113px 0px 0px 287px;
-    width: 100%;
+    width: 80%;
 }
 
 #firesText{
     font-family: 'Roboto', sans-serif;
     width: 420px;
-    font-size: 18.0302px;
+    font-size: 105%;
     line-height: 190%;
     text-transform: capitalize;
     color: #FFFFFF;
@@ -85,7 +85,7 @@ header{
 #secondText{
     font-family: 'Roboto', sans-serif;
     width: 420px;
-    font-size: 18.0302px;
+    font-size: 105%;
     line-height: 185%;
     text-transform: capitalize;
     color: #FFFFFF;
@@ -98,7 +98,7 @@ header{
 }
 
 #year{
-    font-size: 21px;
+    font-size: 120%;
     line-height: 150%;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -112,7 +112,7 @@ header{
 }
 
 .firstPublic{
-    height: 100%;
+    height: 839px;
     width: 100%;
     margin-top: 12%;
     position: relative;
@@ -132,13 +132,12 @@ header{
 }
 
 .JackRinaldi{
-    height: 839.1px;
     width: 110%;
 }
 
 .t01{
     font-family: 'Cinzel', serif;
-    font-size: 190px;
+    font-size: 1100%;
     line-height: 130%;
     display: flex;
     align-items: center;
@@ -198,6 +197,7 @@ header{
 #name{
     position: absolute;
     z-index: 4;
+    font-weight: bold;
     font-size: 27px;
     text-transform: capitalize;
     color: #000000;
@@ -232,7 +232,7 @@ header{
 
 #t02{
     font-family: 'Cinzel', serif;
-    font-size: 190px;
+    font-size: 1100%;
     line-height: 130%;
     display: flex;
     align-items: center;
@@ -251,7 +251,7 @@ header{
 
 #year2{
     font-family: 'Cinzel', serif;
-    font-size: 21px;
+    font-size: 120%;
     line-height: 150%;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -262,17 +262,17 @@ header{
 }
 
 .blGirl{
-    background-image: linear-gradient(0deg, rgba(201, 242, 4, 0.17), rgba(201, 242, 4, 0.17)), url(../img/blGirl.jpg);
-    background-size: cover;
-    width: 706px;
-    height: 960px;
+    width: 106.8%;
+    height: 73%;
     margin-top: 355px;
     margin-left: 6px;
+    position: relative;
+    z-index: 4;
 }
 
 #rectangle{
-    width: 177px;
-    height: 1165px;
+    width: 11.6%;
+    height: 88%;
     background: #106B63;
     position: absolute;
     right: 0;
@@ -280,18 +280,19 @@ header{
 }
 
 .description{
-    font-size: 20px;
+    font-size: 130%;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     line-height: 168%;
-    margin-left: 133px;
+    margin-left: 230px;
     margin-top: 110px;
     text-transform: capitalize;
+    position: relative;
 }
 
 #year3{
     font-family: 'Cinzel', serif;
-    font-size: 21px;
+    font-size: 120%;
     line-height: 150%;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -309,16 +310,16 @@ header{
     text-decoration: none;
     border-radius: 100%;
     border: 5px solid #B8FF01;
-    font: normal 85px/120px Arial;
-    height: 135px;
-    width: 140px;
-    right: 530px;
+    font: normal 75px/110px Arial;
+    height: 10%;
+    width: 35%;
     margin-top: 70px;
+    left: 0;
 }
 
 #t04{
     font-family: 'Cinzel', serif;
-    font-size: 190px;
+    font-size: 1100%;
     line-height: 130%;
     display: flex;
     align-items: center;
@@ -336,45 +337,35 @@ header{
 }
 
 #rectangle2{
-    width: 321px;
-    height: 380px;
+    width: 68.8%;
+    height: 30%;
     background: #106B63;
     position: absolute;
     bottom: -110px;
     left: -315px;
 }
 
-#rectangle3{
-    width: 712px;
-    height: 110px;
-    background: #106B63;
-    position: absolute;
-    bottom: -110px;
-    left: 0;
-}
-
 #rectangle4{
-    width: 200px;
-    height: 1672px;
+    width: 11.9%;
+    height: 98.4%;
     background: #106B63;
     position: absolute;
     bottom: -110px;
-    left: 667px;
+    left: 689px;
     top: -231px;
     z-index: 2;
 }
 
 #flowerGirl{
     position: absolute;
-    width: 493px;
-    height: 650px;
-    margin: 48px 0px 0px 295px;
+    width: 26%;
+    margin: 48px 0px 0px 345px;
     z-index: 4;
 }
 
 #model{
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 130%;
     line-height: 162%;
     text-transform: capitalize;
     color: #FFFFFF;
@@ -383,13 +374,14 @@ header{
 
 .textInDiscription{
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 130%;
     color: #FFFFFF;
     line-height: 168%;
     text-transform: capitalize;
 }
 
 .discription2{
+    width: 132%;
     padding: 334px 0px 0px 0px;
 }
 
@@ -402,14 +394,28 @@ header{
     border-radius: 100%;
     border: 5px solid #B8FF01;
     font: normal 85px/120px Arial;
-    height: 135px;
-    width: 140px;
+    height: 8%;
+    width: 22%;
+    margin-top: 45px;
+}
+
+#btnGren04{
+    color: #D6FF11;
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+    border: 5px solid #B8FF01;
+    font: normal 75px/115px Arial;
+    height: 8%;
+    width: 8%;
     margin-top: 45px;
 }
 
 #t03{
     font-family: 'Cinzel', serif;
-    font-size: 190px;
+    font-size: 1100%;
     line-height: 130%;
     display: flex;
     align-items: center;
@@ -427,7 +433,7 @@ header{
 
 #model03{
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 110%;
     line-height: 162%;
     text-transform: capitalize;
     color: #FFFFFF;
@@ -436,24 +442,24 @@ header{
 
 #keds{
     margin-top: 254px;
-    height: 596px;
-    width: 510px;
+    height: 36%;
+    width: 79%;
     position: relative;
     z-index: 2;
 }
 
 #rectangle5{
     background: #106B63;
-    width: 903px;
-    height: 220px;
+    width: 149%;
+    height: 13%;
     position: absolute;
-    bottom: -70px;
+    bottom: -143px;
     left: -300px;
 }
 
 #footerText{
     font-family: 'Cinzel', serif;
-    font-size: 100.168px;
+    font-size: 650%;
     line-height: 170%;
     text-align: center;
     text-transform: capitalize;
@@ -462,60 +468,376 @@ header{
 }
 
 @media screen and (max-width: 1440px){
-    .container{
-        width: 100vh;
-    }
 
     header {
-        background: linear-gradient(0deg, rgba(214, 255, 17, 0.4), rgba(214, 255, 17, 0.4)), url(../img/young-woman-juicy-portrait.jpg) no-repeat center top;
-        background-size: cover;
-        height: 110vh;
-        width: 144vh;
-        background-position: 50% 50%;
+        height: 85vh;
+        width: 1440px;
     }
 
     .firstPublic {
-        width: 144vh;
+        height: 700px;
     }
 
     .secondPublic {
-        width: 120vh;
-    }
-
-    .thirdPublic {
-        width: 140vh;
+        margin-left: 100px;
     }
 
     #year{
         white-space: pre;
+        margin-left: 15%;
     }
-
-    footer{
-        width: 145vh;
-    }
-
-    .menu{
-        width: 145vh;
-    }
-
     #kiwi {
-        margin: 410px 0px 0px 290px;
+        margin: 24% 0px 0px 290px;
         width: 40%;
+    }
+
+    #crownTitle{
+        font-size: 140px;
+        top: 254px;
+    }
+
+    #rectangle5{
+        width: 790px;
+    }
+
+    #rectangle4{
+        left: 570px;
+        height: 98.2%;
+    }
+
+    #crowd {
+        width: 900px;
+        height: 700px;
+    }
+
+    .fourthPublic{
+        margin-left: 638px;
+    }
+
+    .description{
+        margin-left: 70px;
+        font-size: 110%;
+    }
+
+    .thirdPublic{
+        margin-left: 80px;
+    }
+
+    .title {
+        font-size: 110px;
+        width: 980px;
+    }
+
+    #redBG {
+        width: 340px;
+        height: 204px;
+        transform: translate(80%,132%);
+    }
+
+    #portretBG{
+        width: 230px;
+        height: 215px;
+        top: 55%;
+    }
+
+    #btn{
+        font: normal 21px/100px Arial;
+        height: 102px;
+        width: 181px;  
+    }
+
+    #name{
+        right: 140px;
+        bottom: 165px;
+        font-size: 22px;
+    }
+
+    #year2{
+        left: -150px;
+    }
+
+    #year3{
+        left: -150px;
+    }
+
+    #rectangle2 {
+        width: 76.65%;
+    }
+
+    #flowerGirl {
+        margin: 48px 0px 0px 255px;
+    }
+
+    #keds {
+        height: 32%;
+        width: 84%;
+    }
+
+    #btnGren03 {
+        font: normal 65px/100px Arial;
+        height: 7%;
+    }
+
+    .blGirl{
+        width: 86.8%;
+        height: 71%;
+        margin-left: 75px;
+    }
+
+    .textInDiscription{
+        font-size: 110%;
+    }
+
+    #model{
+        font-size: 110%;
+    }
+
+    #t02{
+        left: 5%;
+    }
+
+    #btnGren{
+        font: normal 65px/100px Arial;
+        width: 35%;
+        height: 10%;
+    }
+
+    #btnGren04{
+        font: normal 65px/100px Arial;
+        height: 7%;
     }
 }
 
 @media screen and (max-width: 1200px){
-    .container{
-        width: 1440px;
+    section{
+        width: 1024px;
+    }
+
+    .firstPublic{
+        width: 1024px;
+        height: 500px;
+    }
+
+    #crownTitle {
+        font-size: 99px;
+        top: 200px;
+    }
+
+    header{
+        width: 1024px;
+    }
+
+    #kiwi {
+        margin: 24% 0px 0px 160px;
+        width: 40%;
+    }
+
+    .title {
+        font-size: 60px;
+        width: 580px;
+        margin: 20% 0px 0px 160px;
+    }
+
+    .middleText{
+        font-size: 110%;
+        margin: 113px 0px 0px 160px;
+    }
+
+    #secondText{
+        font-size: 85%;
+        margin-left: 0;
+        width: 360px;
+    }
+
+    #year {
+        font-size: 100%;
+        width: 20%;
+        height: 0%;
+        margin: 14% 0 0 9%;
+    }
+
+    #firesText{
+        font-size: 85%;
+        width: 390px;
+    }
+
+    .t01{
+        left: 80px; 
+        font-size: 700%;
+        top: -60px;
+    }
+
+    #crowd{
+        width: 670px;
+        height: 500px;
+    }
+
+    #redText{
+        right: 50px;
+        top: 40px;
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    #portretBG {
+        width: 160px;
+        height: 155px;
+    }
+
+    #redBG {
+        width: 270px;
+        height: 164px;
+    }
+
+    #name {
+        right: 105px;
+        bottom: 115px;
+        font-size: 16px;
+    }
+
+    #btn {
+        font: normal 15px/80px Arial;
+        height: 80px;
+        width: 130px;
+        border: 2px solid #000000;
+        right: 130px;
+        bottom: 20px;
+    }
+
+    #year2{
+        font-size: 90%;
+        width: 20%;
+        height: 0%;
+        margin: -11% 0 0 6%;
+    }
+
+    #year3{
+        font-size: 90%;
+        width: 20%;
+        height: 0%;
+        margin: -41% 0 0 6%;
+    }
+
+    #t02{
+        left: 80px; 
+        font-size: 700%;
+        top: -60px;
+    }
+
+    .secondPublic{
+        margin-top: 220px;
+    }
+
+    .blGirl{
+        margin-top: 155px;
+        width: 54.8%;
+        height: 82%;
+    }
+
+    .description {
+        margin-left: -190px;
+        font-size: 80%;
+        margin-top: 0px;
+    }
+
+    #btnGren {
+        font: normal 45px/61px Arial;
+        width: 32%;
+        height: 10%;
+        border: 2px solid #B8FF01;
+        margin-top: 30px;
+    }
+
+    #rectangle2 {
+        width: 87%;
+    }
+
+    #rectangle4 {
+        left: 397px;
+        height: 86.2%;
+    }
+
+    #t04{
+        font-size: 700%;
+    }
+
+    .thirdPublic {
+        margin-top: 240px;
+    }
+
+    #flowerGirl {
+        margin: 28px 0px 0px 180px;
+        width: 29%;
+    }
+
+    #model {
+        font-size: 80%;
+    }
+
+    .textInDiscription {
+        font-size: 80%;
+        line-height: 170%;
+    }
+
+    #model03 {
+        font-size: 80%;
+        margin-top: 170px;
+    }
+
+    .discription2 {
+        width: 292%;
+        padding: 80px 0px 0px 0px;
+    }
+
+    .fourthPublic {
+        margin-left: 520px;
+        margin-top: 18%;
+    }
+
+    #t03{
+        font-size: 700%;
+    }
+
+    #btnGren04 {
+        font: normal 45px/54px Arial;
+        width: 7%;
+        height: 5%;
+        border: 2px solid #B8FF01;
+        margin-top: 30px;
+    }
+
+    #btnGren03 {
+        font: normal 45px/65px Arial;
+        width: 24%;
+        height: 7%;
+        border: 2px solid #B8FF01;
+        margin-top: 15px;
+    }
+
+    #keds {
+        height: 31%;
+        width: 87%;
+        margin-top: 130px;
+    }
+
+    #rectangle5 {
+        width: 547px;
+        bottom: -60px;
+        left: -231px;
+    }
+
+    #footerText {
+        font-size: 350%;
+        margin-top: -230px;
     }
 }
     
      
     
 @media screen and (max-width: 1199px){ 
-    .container{
-        width: 960px;
-    }
+    header {
+        height: 60vh;
+    }    
 }
      
     
@@ -524,9 +846,12 @@ header{
         width: 720px;
     }
 
-    #rectangle{
-        right: 130px;
+    .companyName {
+        font-size: 24px;
+        margin: 0 0 0 360px;
+        width: 350px;
     }
+    
 } 
     
      
@@ -534,6 +859,16 @@ header{
 @media screen and (max-width: 767px) { 
     .container{
         width: 540px;
+    }
+
+    footer{
+        width: 700px;
+        margin: 0 0 0 160px;
+    }
+
+    .companyName {
+        margin: 0 0 0 600px;
+        white-space: pre;
     }
 } 
     
@@ -545,4 +880,3 @@ header{
         padding: 0 15px;
     }
 }
-    
